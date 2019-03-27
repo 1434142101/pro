@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateQuestion() {
     int i = mQuestions[mQuestionsIndex].getTextld();
-        mQuestionTextView.setText(i);
+          mQuestionTextView.setText(i);
 //        mTranslateAnimation=new TranslateAnimation(-10,10,0,0);
 //        mTranslateAnimation.setDuration(50); //动画持续时间
 //        mTranslateAnimation.setRepeatCount(5); //重复次数(不包括第一次)
